@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+## Description:
+campus connect is a social media platform created specifically for students to make it easier to communicate, collaborate and make it easier to find campus-related information such as scholarships and other events.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Time Taken:
+1 month (Backend + Frontend + design ui)
 
-## Available Scripts
+## Technologies Used (FE):
+ReactJS
+Tailwind 
+Chakra UI
+Zustand
+react-router-dom
+react-hook-form + yup
+react-icons
+react-infinite-scroll
+moment.js
+uuid
+HTML
+CSS
 
-In the project directory, you can run:
+## Technologies Used (BE):
+Gin
+Gorm
+email services (gmail)
+SQLite
+jwt
 
-### `npm start`
+## Front End:
+This repository is for the front-end. The front-end is hosted on Netlify.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Back End
+The back-end is hosted on Heroku. The back-end repository is: https://github.com/Yudistir4/campus-connect-be
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## UI Design:
+https://www.figma.com/file/JxTJ4s68d8m3tvOCsHIM33/SOCIAL-MEDIA-KAMPUS?node-id=0%3A1
 
-### `npm test`
+## Databases:
+11 tables:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+User        : Stores everything about the user including name, email, password, etc.
+Mahasiswa   : Stores all info about student if user type is students
+Organisasi  : Stores all info about organisasi if user type is organisasi
+Universitas : Stores all info about university if user type is university
+Fakultas    : Stores all info about fakultys in university 
+Prodi       : Stores all info about prodi in university
+Jabatan     : store all information related to student positions in the organization
+Post        : Stores all info about post
+Comment     : Stores all info about comment
+Save        : Stores all info about saved post 
+Like        : Stores all info about liked post 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 
+## Front-End:
+Front End fully developed in ReactJS using the create-react-app boiler plate
