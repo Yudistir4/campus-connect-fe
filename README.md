@@ -1,54 +1,54 @@
 ## Description:
 campus connect is a social media platform created specifically for students to make it easier to communicate, collaborate and make it easier to find campus-related information such as scholarships and other events.
 
-## Time Taken:
+### Time Taken:
 1 month (Backend + Frontend + design ui)
 
-## Technologies Used (FE):
-ReactJS
-Tailwind 
-Chakra UI
-Zustand
-react-router-dom
-react-hook-form + yup
-react-icons
-react-infinite-scroll
-moment.js
-uuid
-HTML
-CSS
+### Technologies Used (FE):
+- ReactJS
+- Tailwind 
+- Chakra UI
+- Zustand
+- react-router-dom
+- react-hook-form + yup
+- react-icons
+- react-infinite-scroll
+- moment.js
+- uuid
+- HTML
+- CSS
 
-## Technologies Used (BE):
-Gin
-Gorm
-email services (gmail)
-SQLite
-jwt
+### Technologies Used (BE):
+- Gin
+- Gorm
+- email services (gmail)
+- SQLite
+- jwt
 
-## Front End:
+### Front End:
 This repository is for the front-end. The front-end is hosted on Netlify.
 
-## Back End
+### Back End
 The back-end is hosted on Heroku. The back-end repository is: https://github.com/Yudistir4/campus-connect-be
 
-## UI Design:
+### UI Design:
 https://www.figma.com/file/JxTJ4s68d8m3tvOCsHIM33/SOCIAL-MEDIA-KAMPUS?node-id=0%3A1
 
-## Databases:
+### Databases:
 11 tables:
 
-User        : Stores everything about the user including name, email, password, etc.
-Mahasiswa   : Stores all info about student if user type is students
-Organisasi  : Stores all info about organisasi if user type is organisasi
-Universitas : Stores all info about university if user type is university
-Fakultas    : Stores all info about fakultys in university 
-Prodi       : Stores all info about prodi in university
-Jabatan     : store all information related to student positions in the organization
-Post        : Stores all info about post
-Comment     : Stores all info about comment
-Save        : Stores all info about saved post 
-Like        : Stores all info about liked post 
+- User        : Stores everything about the user including name, email, password, etc.
+- Mahasiswa   : Stores all info about student if user type is students
+- Organisasi  : Stores all info about organisasi if user type is organisasi
+- Universitas : Stores all info about university if user type is university
+- Fakultas    : Stores all info about fakultys in university 
+- Prodi       : Stores all info about prodi in university
+- Jabatan     : store all information related to student positions in the organization
+- Post        : Stores all info about post
+- Comment     : Stores all info about comment
+- Save        : Stores all info about saved post 
+- Like        : Stores all info about liked post 
 
  
-## Front-End:
+### Front-End:
 Front End fully developed in ReactJS using the create-react-app boiler plate
